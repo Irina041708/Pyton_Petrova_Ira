@@ -8,10 +8,22 @@
 # - 7 -> да
 # - 1 -> нет
 
-a = int(input("Введите число от 1 до 7:   "))
-if a <= 5 and a > 0:
-    print (f"{a} - рабочий день")
-elif a > 5 and a <= 7:
-    print (f"{a} - выходной день")
-else:
-    print (f"Неверный ввод данных")
+friday_day_num = int(input("Введите число от 1 до 7:   "))
+match friday_day_num:
+    case 1:
+        print(f"{friday_day_num} - рабочий день")
+    case 2:
+        print(f"{friday_day_num} - рабочий день")
+    case 3:
+        print(f"{friday_day_num} - рабочий день")
+    case 4:
+        print(f"{friday_day_num} - рабочий день")
+    case 5:
+        print(f"{friday_day_num} - рабочий день")
+    case 6:
+        print(f"{friday_day_num} - выходной день")
+    case 7:
+        print(f"{friday_day_num} - выходной день")
+    case _:
+        print(f"{friday_day_num} - ошибка ввода")
+    
