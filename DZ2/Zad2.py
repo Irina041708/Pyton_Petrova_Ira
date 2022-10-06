@@ -14,3 +14,4 @@ print(f"N = {number}, тогда", "[", ",".join(result), end=" ]  -> ")
 for i in range(1, number + 1):
     count_result2 += 1
     print("(", "*".join([str(i) for i in range(1, count_result2)]), end=") ")
+
