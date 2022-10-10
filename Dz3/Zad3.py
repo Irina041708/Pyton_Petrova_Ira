@@ -13,3 +13,4 @@ print(list)
 print(max(list))
 print(min(list))
 print(round((max(list) - min(list)), 3))
+
