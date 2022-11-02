@@ -13,8 +13,8 @@ def data_comm():
     data_json = jf.read_file()
     data_xlsx = xxml.read_file()
     data_xlsx_2 = xxml.read_file_2()
-    exit = True
-    while exit:
+    conclusion = True
+    while conclusion:
         what = menu.menu()
         if what == 1:
             c.get_conclusion_json(data_json)
@@ -33,5 +33,5 @@ def data_comm():
         elif what == 8:
             c.get_conclusion_xlsx_2(data_xlsx_2)
         else:
-            exit = False
+            conclusion = False
 data_comm()     
