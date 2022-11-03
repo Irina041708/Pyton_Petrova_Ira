@@ -6,7 +6,6 @@ import add_user as au
 import remove_record as rr
 import save_file as sf
 import xxml
-import openpyxl
 
 
 def data_comm():
